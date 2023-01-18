@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Avenged Sevenfold</title>
+    <link href="style/base.css" rel="stylesheet" type="text/css">
+    <link href="style/main.css" rel="stylesheet" type="text/css">
+</head>
+
+
+<body>
+    <header>
+        <h1>
+            <u><a href="index.html">Avenged Sevenfold</a></u>
+        </h1>
+        <img src="images/mini_A7X.jpg" alt="">
+    </header>
+    <main>
+        <article>
+            <nav>
+                <ul>
+                    <li><a href="members_band.html">Members</a></li>
+                    <li><a href="albums.html">Albums</a></li>
+                    <li><a href="history_band.html">History</a></li>
+                    <li><a href="other_members.html">Other members</a></li>
+                    <li><a href="collabs_games.html">Colllaborations</a></li>
+                    <li><a href="support_Page.html">Support Page</a></li>
+
+                </ul>
+            </nav>
+            <form>
+                <section>
+                    <h2>Support to the creator</h2>
+                    <p>If you liked the page please consider to support the creator for more pages about bands.</p>
+                    <div>
+                        <span>Name:</span><span aria-label="required">*</span>
+                        <input id="username" type="text" name="username" />
+                    </div>
+                    <div>
+                        <span>E-mail:</span><span aria-label="required">*</span>
+                        <input id="mail" type="email" name="usermail" />
+                    </div>
+                    <div>
+                        <span>Country:</span><span aria-label="required">*</span>
+                        <input id="country" type="text" name="country" />
+                    </div>
+                </section>
+                <section>
+                    <h2>Payment details</h2>
+                    <label for="payment">
+                        <span>Select your payment:</span>
+                    </label>
+
+                    <select id="payment" name="userpayment">
+                        <option value="Visa">Visa</option>
+                        <option value="Paypal">Paypal</option>
+                    </select>
+
+                    <span>Amount to pay</span>
+                    <ul>
+                        <li>
+                            <input type="radio" id="Option1" name="Option1" value="1">
+                            <label for="Option1">2,99€</label><br>
+                        </li>
+                        <li>
+                            <input type="radio" id="Option2" name="Option2" value="2">
+                            <label for="Option2">4,99€</label><br>
+                        </li>
+                        <li>
+                            <input type="radio" id="Option3" name="Option3" value="3" />
+                            <label for="Option3">8,99€</label>
+                        </li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h2>Gift for supporting the creator</h2>
+                    <fieldset>
+                        <legend>What gift or gifts you want?</legend>
+
+                        <div>
+                            <input type="checkbox" id="Teddy_bear" name="Teddy_bear">
+                            <label for="Teddy_bear">Teddy bear</label>
+                        </div>
+
+                        <div>
+                            <input type="checkbox" id="Candys" name="Candys">
+                            <label for="Candys">Candys</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="Nespresso" name="Nespresso">
+                            <label for="Nespresso">Nespresso</label>
+                        </div>
+                    </fieldset>
+                </section>
+                <section>
+                    <p>Positive comments on how to improve the page</p>
+                    <textarea cols="30" rows="8"></textarea>
+                </section>
+                <br>
+
+                <section>
+
+                    <button type="submit">Send form</button>
+                    <button type="reset">Reset</button>
+                </section>
+
+            </form>
+        </article>
+    </main>
+</body>
+
+</html>
