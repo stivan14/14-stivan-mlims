@@ -1,13 +1,16 @@
+/*The colour scheme i choosed for this project is called Waves at Night.I take it from https://www.canva.com/colors/color-palettes/waves-at-night/
+
 /* || General setup */
 
-html,body {
+html,
+body {
   margin: 0 auto;
   padding: 0;
 }
 
 html {
   font-size: 14px;
-  background-color: #a9a9a9;
+  background-color: #1F2024;
 }
 
 body {
@@ -19,21 +22,26 @@ body {
 
 /* || typography */
 
-h1,h2,h3 {
+h1,
+h2,
+h3 {
   font-family: 'Bayon', sans-serif;
-  color: #220a49;
+  color: #1F2024;
 }
 
-p,label,input,li {
+p,
+label,
+input,
+li {
   font-family: 'Average', serif, 'Fira_Mono', monospace;
-  color: #2a2a2a;
+  color: #1F2024;
 
 }
 
 h1 {
   font-size: 48px;
   text-align: center;
-  text-shadow: 2px 2px 10px rgb(80, 18, 99);
+  text-shadow: 2px 2px 10px #343C3B;
   flex: 5;
   text-transform: uppercase;
 }
@@ -47,7 +55,8 @@ h3 {
   font-size: 1.2rem;
 }
 
-p,li {
+p,
+li {
   font-size: 19px;
   line-height: 30px;
 }
@@ -56,41 +65,37 @@ p,li {
 
 header {
   margin-bottom: 10px;
-  display: flex;
   flex-flow: row wrap;
 }
 
 body>* {
-  background-color: rgba(172, 85, 206, 0.5);
+  background-color: #A4A8AB;
   padding: 1%;
 }
 
-main,header,nav,article,aside,footer,section {
-  background-color: rgba(210, 133, 255, 0.5);
+main,
+header,
+nav,
+article,
+aside,
+footer,
+section {
+  background-color: #A4A8AB;
   padding: 1%;
 }
 
 /*Nav*/
 
-main nav ul{
-  padding: 0;
-  list-style-type: none;
-  flex: 2;
+nav ul {
   display: flex;
+  justify-content: space-around;
 }
 
-main nav ul li{
-  display: inline;
-  text-align: center;
-  flex: 1;
-}
-
-main nav ul li a{
-  display: inline-block;
+nav ul li a {
   font-size: 18px;
   text-transform: uppercase;
   text-decoration: none;
-  color: rgb(15, 6, 31);
+  color: #030000;
 
 }
 
@@ -164,11 +169,21 @@ header img {
   padding-top: 20.15px;
 }
 
-.videos{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    
+/*Videos album*/
+
+.center1 {
+  display: flex;
+  justify-content: center;
 }
 
+.center2 {
+  text-align: center;
+}
+
+.center3 {
+  text-align: center;
+}
+
+.figure-1{
+  float: left;
+}
