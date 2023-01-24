@@ -11,11 +11,11 @@ body {
 html {
   font-size: 14px;
   background-color: #1F2024;
+  background-image: url("/images/background-red.jpeg");
 }
 
 body {
-  width: 70%;
-  min-width: 800px;
+  width: 900px;
   margin: 0 auto;
   text-align: justify;
 }
@@ -29,13 +29,13 @@ h3 {
   color: #1F2024;
 }
 
+
 p,
 label,
 input,
 li {
   font-family: 'Average', serif, 'Fira_Mono', monospace;
   color: #1F2024;
-
 }
 
 h1 {
@@ -91,6 +91,11 @@ nav ul {
   justify-content: space-around;
 }
 
+nav ul li{
+  list-style-type: none;
+  text-decoration: none;
+}
+
 nav ul li a {
   font-size: 18px;
   text-transform: uppercase;
@@ -113,13 +118,19 @@ section {
 /*Aside*/
 
 aside {
+  display: flex;
+  flex-direction: column;
   flex: 1;
   margin-left: 10px;
-  padding: 2%;
+  padding: 10px 1px;
 }
 
 aside img {
   max-width: 100%;
+}
+
+figure{
+  margin-bottom: 10px;
 }
 
 /*Footer*/
@@ -129,6 +140,7 @@ footer {
 }
 
 /*Table settings*/
+
 table {
   border: 1px solid;
   border-collapse: collapse;
@@ -184,6 +196,85 @@ header img {
   text-align: center;
 }
 
-.figure-1{
-  float: left;
+/*GALLERY Page*/
+
+.gallery{
+  display: flex;
+  flex-direction: column;
+}
+
+/*Links colors*/
+
+a:link{
+  color:#030000;
+}
+
+a:hover{
+  color: purple;
+}
+
+/*Support Page*/
+
+form{
+  text-align: center;
+  border: 3px solid #030000;
+}
+
+div{
+  text-align: left;
+}
+
+#Amountpay{
+  display: block;
+}
+
+.credentials{
+  padding-left: 80px;
+  padding-bottom: 4px;
+  justify-content: left;
+}
+
+.credentials-country{
+  padding-left: 70px;
+  justify-content: left;
+}
+
+/*OTHERS MEMBERS PAGE*/
+
+.figure1{
+      float: left;
+      clear: both;
+      margin: 10px;
+}
+
+
+/*HISTORY PAGE*/
+
+.formation{
+  border: 2px dotted black;
+  text-align: justify;
+  padding: 0px 10px;
+  margin: 20px 0px;
+}
+
+.musical-style{
+  border: 2px solid black;
+  text-align: justify;
+  padding: 0px 10px;
+  margin: 20px 0px;
+}
+
+.fame{
+  border: 2px dashed black;
+  text-align: justify;
+  padding: 0px 10px; 
+  margin: 20px 0px;
+}
+
+.name-emblem{
+  border: 2px double white;
+  outline: 2px solid black;
+  text-align: justify;
+  padding: 0px 10px;
+  margin: 20px 0px;
 }
