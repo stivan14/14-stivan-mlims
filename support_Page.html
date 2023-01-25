@@ -32,10 +32,9 @@
     <main>
         <article>
             <form>
-                <section>
+                <section> 
                     <h2>Support to the creator</h2>
-                    <p>If you liked the page please consider to support the creator for more pages about bands.</p>
-                    <div class="credentials">
+                    <div class="credentials-name">
                         <span>Name:</span><span aria-label="required">*</span>
                         <input id="username" type="text" name="username" />
                     </div>
@@ -48,7 +47,7 @@
                         <input id="country" type="text" name="country" />
                     </div>
                 </section>
-                <section>
+                <section class="payment-details">
                     <h2>Payment details</h2>
                     <label for="payment">
                         <span>Select your payment:</span>
@@ -59,15 +58,15 @@
                         <option value="Paypal">Paypal</option>
                     </select>
 
-                    <span id="Amountpay">Amount to pay:</span>
+                    <span id="amountpay">Amount to pay:</span>
                     <ul>
                         <li>
                             <input type="radio" id="Option1" name="Option1" value="1">
-                            <label for="Option1">2,99€</label><br>
+                            <label for="Option1">2,99€</label>
                         </li>
                         <li>
                             <input type="radio" id="Option2" name="Option2" value="2">
-                            <label for="Option2">4,99€</label><br>
+                            <label for="Option2">4,99€</label>
                         </li>
                         <li>
                             <input type="radio" id="Option3" name="Option3" value="3" />
@@ -75,22 +74,21 @@
                         </li>
                     </ul>
                 </section>
-
                 <section>
                     <h2>Gift for supporting the creator</h2>
                     <fieldset>
                         <legend>What gift or gifts you want?</legend>
 
-                        <div>
+                        <div class="checkbox-gifts">
                             <input type="checkbox" id="Teddy_bear" name="Teddy_bear">
                             <label for="Teddy_bear">Teddy bear</label>
                         </div>
 
-                        <div>
+                        <div class="checkbox-gifts"> 
                             <input type="checkbox" id="Candys" name="Candys">
                             <label for="Candys">Candys</label>
                         </div>
-                        <div>
+                        <div class="checkbox-gifts">
                             <input type="checkbox" id="Nespresso" name="Nespresso">
                             <label for="Nespresso">Nespresso</label>
                         </div>
