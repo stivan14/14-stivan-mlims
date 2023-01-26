@@ -19,10 +19,6 @@ body {
   text-align: justify;
 }
 
-img{
-  padding-bottom: 10px;
-}
-
 /* || typography */
 
 h1,h2,h3 {
@@ -39,7 +35,7 @@ p,label,input,li {
 h1 {
   font-size: 48px;
   text-align: center;
-  text-shadow: 2px 2px 10px #343C3B;
+  text-shadow: 2px 5px 20px #343C3B;
   flex: 5;
   text-transform: uppercase;
 }
@@ -112,6 +108,10 @@ a:link{
   color:#030000;
 }
 
+a:visited{
+  color:#030000;
+}
+
 a:hover{
   color: purple;
 }
@@ -177,18 +177,48 @@ article figure img {
 
 /*INDEX PAGE*/
 
-.index>figure{
-    padding-left: 40px;
+.index{
+    text-align: justify;
 }
 
 /*MEMBERS PAGE*/
 
-.members{
+.members-of-band>article{
   justify-content: center;
+  padding-left: 30px;
 }
 
-.members>div{
-  padding: 10px;
+.members-of-band>aside{
+padding-left: 40px;
+}
+
+.members-of-band>article>h3{
+margin:10px 0px;
+}
+
+.members-of-band>aside{
+
+
+}
+
+.img-1{
+padding-top: 20px;
+}
+
+.img-2{
+  padding-top: 12px;
+}
+
+.img-4{
+  padding-top: 8px;
+}
+
+.img-5{
+padding-top: 10px;
+}
+
+.img-6{
+  padding-top: 10px;
 }
 
 /*OTHERS MEMBERS PAGE*/
@@ -199,16 +229,16 @@ article figure img {
   margin: 10px;
 }
 
-.albums{
-justify-content: center;
-text-align: justify;
-}
-
 .text-albums{
 margin-bottom: 10px;
 }
 
 /*ALBUMS PAGE*/
+
+.albums{
+  justify-content: center;
+  text-align: justify;
+ }
 
 .center1 {
   display: flex;
@@ -224,6 +254,11 @@ margin-bottom: 10px;
 }
 
 /*HISTORY PAGE*/
+
+.history-A7X{
+  justify-content: center;
+  text-align: justify;
+ }
 
 .formation{
   border: 2px dotted black;
@@ -257,21 +292,25 @@ margin-bottom: 10px;
 /*COLLABORATIONS PAGE*/
 
 main article table{
-  box-shadow: -1px 5px 10px 15px rgb(223, 47, 16);
+  box-shadow: -1px 5px 10px 15px purple;
 }
 
 main article table th{
-  border: 2px solid rgb(223, 47, 16);
+  border: 2px solid purple;
 }
 
 main article table td{
-  border: 2px solid rgb(223, 47, 16);
+  border: 2px solid purple;
 }
 
 /*GALLERY PAGE*/
 
 .gallery>figure{
-    padding: 1em;
+  padding: 1em;
+}
+
+.gallery img{
+  padding-bottom: 10px;
 }
 
 /*SUPPORT PAGE*/
