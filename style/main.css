@@ -67,6 +67,7 @@ li {
 header {
   margin-bottom: 10px;
   flex-flow: row wrap;
+  margin-top: 10px;
 }
 
 body>* {
@@ -176,7 +177,7 @@ table tr {
   padding-left: 50px;
 }
 
-/*Logo A7X index*/
+/*Images*/
 article img {
   width: 100%;
   margin-bottom: 7px;
@@ -210,7 +211,7 @@ article img {
 }
 
 .img-4 {
-  padding-top: 8px;
+  padding-top: 15px;
 }
 
 .img-5 {
@@ -227,7 +228,9 @@ article img {
   text-align: justify;
 }
 
-
+.other-members h3{
+  padding-top: 8px;
+}
 
 /*ALBUMS PAGE*/
 
@@ -318,10 +321,6 @@ main article table td {
 }
 
 /*SUPPORT PAGE*/
-
-.support-body-page{
-  background-image: url("/images/rocknroll-background.jpg");
-}
 
 .support-body-page p{
   padding-bottom: 10px;
